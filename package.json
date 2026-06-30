@@ -1,0 +1,10 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "Minimal TypeScript demo app for Sourcebook end-to-end ingestion.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT"
+}
