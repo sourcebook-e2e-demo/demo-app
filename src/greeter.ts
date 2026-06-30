@@ -11,8 +11,8 @@ export class Greeter {
   constructor(private readonly logger: Logger) {}
 
   greet(name: string): string {
-    const message = `Hello, ${name}!`;
-    this.logger.info(`greeted ${name}`);
+    const message = `Hello, ${name}! Welcome aboard.`;
+    this.logger.info(`greeted ${name} at ${new Date().toISOString()}`);
     return message;
   }
 }
